@@ -72,12 +72,12 @@ body {
   
   .text {
     position: absolute;
-    font-family: 'Brush Script MT', cursive;
     font-size: 25px;
     text-align: center;
     line-height:1.6rem;
-    top:19px;
-    left: 24%;
+    font-family: Tahoma, sans-serif;
+    top: 19px;
+    left: 25%;
     color: #003049;
   }
   
