@@ -1,0 +1,45 @@
+.pp-container {
+    position: absolute;
+    margin-bottom: 40rem;
+}
+
+.pp {
+    height: 14rem;
+    width: 14rem;
+    border-radius: 50%;
+    background-image: url("../images/eu_e_ela.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 0.3rem #fff solid;
+}
+
+@media only screen and (max-width: 600px) {
+    .pp-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center; 
+        align-items: flex-start;
+        height: 14rem;
+        z-index: 1000;
+        margin-top: 1rem;
+    }
+
+
+    #player-container {
+        position: fixed;
+        top: 42%;
+        right: 0;
+        left: 0;
+        width: auto;
+        height: 6rem;
+        margin: -4px auto;
+    }
+
+
+    .container {
+        position: fixed;
+    }
+}

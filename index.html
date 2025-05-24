@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana e Luiz</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="./styles/player.css">
+    <link rel="stylesheet" href="./styles/letter.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <!-- PROFILE PIC-->
+    <div  class="pp-container">
+        <div class="pp"></div>
+    </div>
+
+    <!-- PLAYER -->
+    <!-- <div id="player-bg-artwork"></div> -->
+    <!-- <div id="player-bg-layer"></div> -->
+    <div id="player-container">
+      <div id="player">
+        <div id="player-track">
+          <div id="album-name"></div>
+          <div id="track-name"></div>
+          <div id="track-time">
+            <div id="current-time"></div>
+            <div id="track-length"></div>
+          </div>
+          <div id="seek-bar-container">
+            <div id="seek-time"></div>
+            <div id="s-hover"></div>
+            <div id="seek-bar"></div>
+          </div>
+        </div>
+        <div id="player-content">
+          <div id="album-art">
+            <img src="./images/ela_une.jpg" class="active" id="_1" />
+            <img src="./images/chimarruts.jpg" id="_2" />
+            <img src="./images/velha_infancia.jpg" id="_3" />
+            <img src="./images/alianca.jpg" id="_4" />
+            <div id="buffer-box">Buffering ...</div>
+          </div>
+          <div id="player-controls">
+            <div class="control">
+              <div class="button" id="play-previous">
+                <i class="fas fa-backward"></i>
+              </div>
+            </div>
+            <div class="control">
+              <div class="button" id="play-pause-button">
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+            <div class="control">
+              <div class="button" id="play-next">
+                <i class="fas fa-forward"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--CARTA -->
+    <div class="container">
+        <div class="valentines">
+            <div class="envelope"></div>
+            <div class="front"></div>
+            <div class="card">
+                <div class="text">Meu Bem</br> Feliz 1 Mês</br> de Namoro!</div>
+                <div class="heart"></div>
+                <div class="hearts">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                    <div class="four"></div>
+                    <div class="five"></div>
+                </div>
+            </div>
+        </div>
+        <div class="shadow"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./scripts/letter.js"></script>
+    <script src="./scripts/player.js"></script>
+</body>
+
+</html>
