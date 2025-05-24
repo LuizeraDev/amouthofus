@@ -28,10 +28,10 @@ $(function () {
     ];
     const albumArtworks = ["_1", "_2", "_3", "_4"];
     const trackUrl = [
-      "../music/ela_une_todas_as_coisas.mp3",
-      "../music/velha_infancia.mp3",
-      "../music/versos_simples.mp3",
-      "../music/alianca_violino.mp3"
+      "./music/ela_une_todas_as_coisas.mp3",
+      "./music/velha_infancia.mp3",
+      "./music/versos_simples.mp3",
+      "./music/alianca_violino.mp3"
     ];
   
     let bgArtworkUrl,
@@ -212,8 +212,6 @@ $(function () {
         $("#" + currArtwork).addClass("active");
   
         bgArtworkUrl = $("#" + currArtwork).attr("src");
-
-        console.log(bgArtworkUrl)
   
         bgArtwork.css({ "background-image": "url(" + bgArtworkUrl + ")" });
       } else {
